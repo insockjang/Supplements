@@ -88,7 +88,7 @@ ListMake2<-function(drug.Type,data.Type,model.Type,ID){
   (a.3 = grep("Mh",data.Type))
   
   if(length(a.1)==1){
-    KKK<-list(list(name="bsSGLR_prior_synapse.R", url="https://github.com/Sage-Bionetworks/SGLR/blob/master/bsSGLR_prior_synapse.R", wasExecuted=T),
+    KKK<-list(list(name="bsSGLR_prior_synapse.R", url="https://github.com/insockjang/SGLR/blob/master/bsSGLR_prior_synapse.R", wasExecuted=T),
               list(name="myData_CCLE_new.R", url="https://github.com/Sage-Bionetworks/PredictiveModel_pipeline/blob/master/myData_CCLE_new.R", wasExecuted=T),
               list(name = "Expression",entity="syn1757082", wasExecuted=F),              
               list(name = "Response",entity=a, wasExecuted=F)        
@@ -96,7 +96,7 @@ ListMake2<-function(drug.Type,data.Type,model.Type,ID){
   }
   
   if(length(a.2)==1){
-    KKK<-list(list(name="bsSGLR_prior_synapse.R", url="https://github.com/Sage-Bionetworks/SGLR/blob/master/bsSGLR_prior_synapse.R", wasExecuted=T),
+    KKK<-list(list(name="bsSGLR_prior_synapse.R", url="https://github.com/insockjang/SGLR/blob/master/bsSGLR_prior_synapse.R", wasExecuted=T),
               list(name="myData_CCLE_new.R", url="https://github.com/Sage-Bionetworks/PredictiveModel_pipeline/blob/master/myData_CCLE_new.R", wasExecuted=T),
               list(name = "Copy Number Alteration",entity="syn1757086", wasExecuted=F),              
               list(name = "Response",entity=a, wasExecuted=F)        
@@ -104,7 +104,7 @@ ListMake2<-function(drug.Type,data.Type,model.Type,ID){
   }
   
   if(length(a.3)==1){
-    KKK<-list(list(name="bsSGLR_prior_synapse.R", url="https://github.com/Sage-Bionetworks/SGLR/blob/master/bsSGLR_prior_synapse.R", wasExecuted=T),
+    KKK<-list(list(name="bsSGLR_prior_synapse.R", url="https://github.com/insockjang/SGLR/blob/master/bsSGLR_prior_synapse.R", wasExecuted=T),
               list(name="myData_CCLE_new.R", url="https://github.com/Sage-Bionetworks/PredictiveModel_pipeline/blob/master/myData_CCLE_new.R", wasExecuted=T),
               list(name = "Mutation hybrid capture sequenceing",entity="syn1757084", wasExecuted=F),              
               list(name = "Response",entity=a, wasExecuted=F)        
