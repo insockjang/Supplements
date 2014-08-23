@@ -38,8 +38,8 @@ ListMake<-function(drug.Type,data.Type,model.Type){
 
 ListMake1<-function(drug.Type,data.Type,model.Type,ID){
   a<-switch(drug.Type,
-            "ActArea" = "syn1757078",
-            "IC50" = "syn1757074")
+            "ActArea" = "syn1807986",
+            "IC50" = "syn1742876") 
   
   (a.1 = grep("E",data.Type))
   (a.2 = grep("C",data.Type))
@@ -80,8 +80,8 @@ ListMake1<-function(drug.Type,data.Type,model.Type,ID){
 
 ListMake2<-function(drug.Type,data.Type,model.Type){
   a<-switch(drug.Type,
-            "ActArea" = "syn1757078",
-            "IC50" = "syn1757074")
+            "ActArea" = "syn1807986",
+            "IC50" = "syn1742876") 
   
   (a.1 = grep("E",data.Type))
   (a.2 = grep("C",data.Type))
