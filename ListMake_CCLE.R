@@ -114,7 +114,7 @@ ListMake2<-function(drug.Type,data.Type,model.Type,ID){
   return(KKK) 
 }
 
-ListMake3<-function(drug.Type,data.Type,model.Type,ID){
+ListMake3<-function(drug.Type,data.Type,model.Type,ID,Name,Entity){
   a<-switch(drug.Type,
             "ActArea" = "syn1757078",
             "IC50" = "syn1757074")
@@ -126,6 +126,7 @@ ListMake3<-function(drug.Type,data.Type,model.Type,ID){
   if(length(a.1)==1){
     KKK<-list(list(name="bsSGLR_prior_synapse_beta.R", url="https://github.com/insockjang/SGLR/blob/master/bsSGLR_prior_synapse_beta.R", wasExecuted=T),
               list(name="myData_CCLE_new.R", url="https://github.com/Sage-Bionetworks/PredictiveModel_pipeline/blob/master/myData_CCLE_new.R", wasExecuted=T),
+              list(name = Name,entity=Entity, wasExecuted=F),              
               list(name = "Expression",entity="syn1757082", wasExecuted=F),              
               list(name = "Response",entity=a, wasExecuted=F)        
     )    
@@ -134,6 +135,7 @@ ListMake3<-function(drug.Type,data.Type,model.Type,ID){
   if(length(a.2)==1){
     KKK<-list(list(name="bsSGLR_prior_synapse_beta.R", url="https://github.com/insockjang/SGLR/blob/master/bsSGLR_prior_synapse_beta.R", wasExecuted=T),
               list(name="myData_CCLE_new.R", url="https://github.com/Sage-Bionetworks/PredictiveModel_pipeline/blob/master/myData_CCLE_new.R", wasExecuted=T),
+              list(name = Name,entity=Entity, wasExecuted=F),              
               list(name = "Copy Number Alteration",entity="syn1757086", wasExecuted=F),              
               list(name = "Response",entity=a, wasExecuted=F)        
     )        
@@ -142,6 +144,7 @@ ListMake3<-function(drug.Type,data.Type,model.Type,ID){
   if(length(a.3)==1){
     KKK<-list(list(name="bsSGLR_prior_synapse_beta.R", url="https://github.com/insockjang/SGLR/blob/master/bsSGLR_prior_synapse_beta.R", wasExecuted=T),
               list(name="myData_CCLE_new.R", url="https://github.com/Sage-Bionetworks/PredictiveModel_pipeline/blob/master/myData_CCLE_new.R", wasExecuted=T),
+              list(name = Name,entity=Entity, wasExecuted=F),              
               list(name = "Mutation hybrid capture sequenceing",entity="syn1757084", wasExecuted=F),              
               list(name = "Response",entity=a, wasExecuted=F)        
     )    
