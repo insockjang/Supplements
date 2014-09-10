@@ -114,7 +114,7 @@ ListMake2<-function(drug.Type,data.Type,model.Type,ID){
   return(KKK) 
 }
 
-ListMake3<-function(drug.Type,data.Type,model.Type,ID,Name,Entity){
+ListMake3<-function(drug.Type,data.Type,model.Type,Name,Entity){
   a<-switch(drug.Type,
             "ActArea" = "syn1757078",
             "IC50" = "syn1757074")
